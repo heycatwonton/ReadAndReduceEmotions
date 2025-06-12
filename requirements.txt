@@ -1,0 +1,10 @@
+transformers
+torch
+pandas
+scikit-learn
+matplotlib
+seaborn
+jupyter
+tensorflow==1.15.2
+absl-py
+bert-tensorflow

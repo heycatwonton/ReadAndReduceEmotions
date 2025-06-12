@@ -1,0 +1,43 @@
+# ========= DATA =========
+# Ignore intermediate/processed data, but NOT raw dataset
+data/interim/
+data/processed/
+data/temp/
+# Uncomment the line below if you ever want to ignore ALL data
+# data/
+
+# ========= BERT CHECKPOINTS =========
+# Ignore large pre-trained model weights (re-downloadable)
+goemotions/bert/cased_L-12_H-768_A-12/
+*.ckpt
+*.ckpt.*
+*.tfrecord
+*.h5
+
+# ========= PYTHON BUILD FILES =========
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+
+# ========= JUPYTER / NOTEBOOKS =========
+.ipynb_checkpoints/
+
+# ========= ENVIRONMENTS =========
+env/
+venv/
+.venv/
+
+# ========= OS-SPECIFIC =========
+.DS_Store
+Thumbs.db
+
+# ========= IDE-SPECIFIC =========
+.vscode/
+.idea/
+
+# ========= MODEL OUTPUT =========
+checkpoints/
+outputs/
+logs/
+runs/
