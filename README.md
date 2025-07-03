@@ -5,9 +5,9 @@
 This project investigates how modern NLP models interpret and reduce emotional expression in text. Using a subset of 100 Reddit comments from the GoEmotions dataset, we compare machine predictions from two powerful language models—GPT-4 (zero-shot) and BERT (Savani) (fine-tuned on GoEmotions)—against human-labeled ground truth.
 
 We ask:
-What emotional signals can be decoded by algorithms?
-Where do misclassifications occur?
-What gets lost when complex human feelings are forced into fixed categories?
+* What emotional signals can be decoded by algorithms?
+* Where do misclassifications occur?
+* What gets lost when complex human feelings are forced into fixed categories?
 
 Unlike traditional tools such as TextBlob or NRC lexicons, which rely on predefined word lists and simple sentiment scoring, large models like BERT and GPT-4 interpret emotion in a more context-aware, dynamic way. Our analysis blends behavioral tests, data visualizations, and qualitative inspection to highlight both model performance and model blind spots.
 
