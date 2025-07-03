@@ -2,13 +2,19 @@
 
 ## How Algorithms Read and Reduce Emotion: Interrogating Misclassification in Affective Computing
 
-This project examines how modern NLP models recognize and abbreviate emotion. Given the human-annotated GoEmotions dataset, we compare results of a number of classifiers (e.g., Google's GoEmotions model, VADER, TextBlob) on the same richly emotional texts. We aim to find out what emotional signals can be decoded by algorithms, where misclassifications occur, and how models short-circuit complex human affect into discrete categories. By linguistic examination and classification errors, we uncover the affective computing presumptions that get flattened, erased, or blown up. Our research includes a critical perspective, asking: what machines see of our emotions, and what they could possibly overlook? More than model performance, we challenge the emotion as a fixed, classifiable phenomenon. With a six-week timeframe, we will analyze a targeted sample (300–500 cases) to ensure computational and qualitative balance.
+This project investigates how modern NLP models interpret and reduce emotional expression in text. Using a subset of 100 Reddit comments from the GoEmotions dataset, we compare machine predictions from two powerful language models—GPT-4 (zero-shot) and BERT (Savani) (fine-tuned on GoEmotions)—against human-labeled ground truth.
 
-- What emotional signals can be decoded by algorithms?
-- Where do misclassifications occur?
-- How do models short-circuit complex human affect into discrete categories?
+We ask:
+What emotional signals can be decoded by algorithms?
+Where do misclassifications occur?
+What gets lost when complex human feelings are forced into fixed categories?
 
-By linguistic examination and classification errors, we uncover the affective computing presumptions that get flattened, erased, or blown up. Our research includes a critical perspective, asking: what machines see of our emotions — and what they could possibly overlook?
+Unlike traditional tools such as TextBlob or NRC lexicons, which rely on predefined word lists and simple sentiment scoring, large models like BERT and GPT-4 interpret emotion in a more context-aware, dynamic way. Our analysis blends behavioral tests, data visualizations, and qualitative inspection to highlight both model performance and model blind spots.
+
+Through classification breakdowns and linguistic examination, we surface the assumptions embedded in affective computing—and critically ask:
+What do machines really see in our emotions, and what do they flatten, erase, or exaggerate?
+
+Although this notebook runs on 100 comments for tractability and clarity, it’s fully configurable—users can scale up the sample size for deeper or broader analysis.
 
 More than model performance, we challenge the emotion as a fixed, classifiable phenomenon. With a six-week timeframe, we will analyze a targeted sample (300–500 cases) to ensure computational and qualitative balance.
 
